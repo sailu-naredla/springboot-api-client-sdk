@@ -1,0 +1,13 @@
+package com.sdk.service;
+
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class HomeService {
+
+    public String health(){
+        return "SDK-OK";
+    }
+
+}
